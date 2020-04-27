@@ -4,7 +4,6 @@
 
 - GDC workflows are written in Common Workflow Language (CWL), and can be found in the [NCI-GDC github organisation](https://github.com/NCI-GDC/)
 
-
 - GDC workflows are used for production with the GDC Pipeline Automation System (GPAS). For the 4 workflows that needs to be tested, we created external user entrypoints that can be used independently without GPAS. Check README in each repo for more details.
 
 - GDC workflows load dockers. All external dockers are public, and internal dockers are hosted in quay.io. We have created a quay group to share the required dockers to the APS team for testing purposes. (Will require quay id of AWP team members to add into this group) 
@@ -12,6 +11,9 @@
 - GDC workflows require input molecular files. Stored in the `gdcbackup` s3 bucket. 
 
 - GDC workflows require other reference files (such as human genome sequence). Stored in the `bio-performance-test` bucket. 
+
+_Figure 1: Overview of GDC workflow_ 
+![Figure 1](assets/gdc_workflow_figure.png)
 
 First workflow that we will run will be a DNA-Seq Alignment workflow on a 2.5Gb WGS bam file. 
 
