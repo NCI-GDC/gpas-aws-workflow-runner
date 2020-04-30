@@ -1,4 +1,4 @@
-# ec2-slurm-worker
+# gpas-worker
 
 Multi-platform cookbook to create an image used for Slurm workflows on AWS EC2 instances.
 

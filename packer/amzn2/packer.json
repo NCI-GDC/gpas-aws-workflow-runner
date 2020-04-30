@@ -56,7 +56,7 @@
       "pause_before": "30s",
       "type": "chef-solo",
       "cookbook_paths": ["../cookbooks"],
-      "run_list": ["ec2-slurm-worker"],
+      "run_list": ["gpas-worker"],
       "chef_license": "accept-silent"
     },
     {

@@ -7,8 +7,8 @@ description 'Installs/Configures gdc-workflow-runner'
 version '0.1.0'
 chef_version '>= 14.0'
 
-source_url 'https://github.com/NCI-GDC/ec2-slurm-worker'
-issues_url 'https://github.com/NCI-GDC/ec2-slurm-worker/issues'
+source_url 'https://github.com/NCI-GDC/gpas-worker'
+issues_url 'https://github.com/NCI-GDC/gpas-worker/issues'
 
 supports 'ubuntu', '>= 18.04'
 supports 'amazon', '= 2'

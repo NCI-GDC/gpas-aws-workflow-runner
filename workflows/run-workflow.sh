@@ -1,5 +1,6 @@
-INPUT_JSON=/home/ubuntu/input.json
-PACKED_WORKFLOW=/home/ubuntu/packed.json
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+INPUT_JSON=${DIR}/input.json
+PACKED_WORKFLOW=${DIR}/packed.json
 CACHE=/mnt/cache
 TMP=/mnt/tmp
 CID=/mnt/cid

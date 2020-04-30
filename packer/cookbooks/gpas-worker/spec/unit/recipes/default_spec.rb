@@ -1,12 +1,12 @@
 #
-# Cookbook:: ec2-slurm-worker
+# Cookbook:: gpas-worker
 # Spec:: default
 #
 # Copyright:: 2020, NCI-GDC, Apache v2.0.
 
 require 'spec_helper'
 
-describe 'ec2-slurm-worker::default' do
+describe 'gpas-worker::default' do
   context 'When all attributes are default, on Ubuntu 18.04' do
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/master/PLATFORMS.md

@@ -1,5 +1,5 @@
 #
-# Cookbook:: ec2-slurm-worker
+# Cookbook:: gpas-worker
 # Recipe:: docker
 #
 # Copyright:: 2020, NCI-GDC, Apache v2.0.

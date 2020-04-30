@@ -1,13 +1,13 @@
-name 'ec2-slurm-worker'
+name 'gpas-worker'
 maintainer 'NCI-GDC'
 maintainer_email 'support@nci-gdc.datacommons.io'
 license 'Apache-2.0'
-description 'Installs/Configures ec2-slurm-worker'
+description 'Installs/Configures gpas-worker'
 version '0.1.0'
 chef_version '>= 14.0'
 
-source_url 'https://github.com/NCI-GDC/ec2-slurm-worker'
-issues_url 'https://github.com/NCI-GDC/ec2-slurm-worker/issues'
+source_url 'https://github.com/NCI-GDC/gpas-worker'
+issues_url 'https://github.com/NCI-GDC/gpas-worker/issues'
 
 supports 'ubuntu', '>= 18.04'
 supports 'amazon', '= 2'

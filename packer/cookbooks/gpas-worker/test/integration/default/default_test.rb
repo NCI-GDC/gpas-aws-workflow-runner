@@ -1,4 +1,4 @@
-# InSpec test for recipe ec2-slurm-worker::default
+# InSpec test for recipe gpas-worker::default
 
 # The InSpec reference, with examples and extensive documentation, can be
 # found at https://www.inspec.io/docs/reference/resources/
