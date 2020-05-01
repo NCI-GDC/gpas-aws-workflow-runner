@@ -26,8 +26,6 @@ else
   sudo mount LABEL=EPHEMERAL_RAID /mnt
 fi
 
-mkdir -p /mnt/SCRATCH/slurm_automation_logs
-
-chown -R slurm:slurm /mnt/SCRATCH
+mkdir -p /mnt/SCRATCH/
 
 systemctl disable mountEphemeral.service

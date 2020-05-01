@@ -42,7 +42,7 @@ First workflow that we will run will be a DNA-Seq Alignment workflow on a 2.5Gb 
   - cwltool
   - nodejs
 
-We have checked in a chef cookbook (gdc-workflow-runner) that can be used to build an AMI that will have all the requirements baked in. You can see 
+We have checked in a chef cookbook (gpas-worker) that can be used to build an AMI that will have all the requirements baked in. You can find the instructions [here](packer/README.md).
 
 
 ## Running the workflow 

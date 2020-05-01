@@ -17,5 +17,3 @@ depends 'yum-epel'
 depends 'os-hardening'
 
 depends 'ark', '~> 5.0.0'
-depends 'logrotate', '~> 2.2.2'
-depends 'hostsfile', '~> 3.0.1'
