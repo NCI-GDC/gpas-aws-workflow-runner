@@ -42,7 +42,7 @@ First workflow that we will run will be a DNA-Seq Alignment workflow on a 2.5Gb 
   - cwltool
   - nodejs
 
-We have checked in a chef cookbook (gdc-workflow-runner) that can be used to build an AMI that will have all the requirements baked in. You can see 
+We have checked in a chef cookbook (gpas-worker) that can be used to build an AMI that will have all the requirements baked in. You can find the instructions [here](packer/README.md).
 
 
 ## Running the workflow 
@@ -62,7 +62,7 @@ git clone -b feat/BINF-309 git@github.com:NCI-GDC/gdc-dnaseq-cwl.git
 git clone git@github.com:NCI-GDC/gpas-aws-workflow-runner.git
 ```
 
-- Download all the reference files. By default all files are downloaded to `/mnt/SCRATCH/reference/hwf/`. You can pass a different value in the argument if you like.  
+- Download all the reference files. By default all files are downloaded to `/mnt/SCRATCH/reference/hwf/`. You can pass a different value in the argument if you like. Ensure current user has write access to this directory. `sudo mkdir -p /mnt/SCRATCH && sudo chown -R ${USER}:${USER} /mnt/SCRATCH` 
 ```
 cd gpas-aws-workflow-runner/workflows/
 ./download-input-files.sh
