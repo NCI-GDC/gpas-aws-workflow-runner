@@ -17,9 +17,9 @@
 
 - GDC workflows load dockers. All external dockers are public, and internal dockers are hosted in quay.io. We have created a quay group to share the required dockers to the APS team for testing purposes. (Will require quay id of AWP team members to add into this group) 
 
-- GDC workflows require input molecular files. Stored in the `gdcbackup` s3 bucket. 
+- GDC workflows require input molecular files. Stored in the `uchig-genomics-pipeline-us-east-1` s3 bucket. 
 
-- GDC workflows require other reference files (such as human genome sequence). Stored in the `bio-performance-test` bucket. 
+- GDC workflows require other reference files (such as human genome sequence). Also stored in the `uchig-genomics-pipeline-us-east-1` bucket. 
 
 _Figure 1: Overview of GDC workflow_ 
 ![Figure 1](assets/gdc_workflow_figure.png)
@@ -33,7 +33,7 @@ First workflow that we will run will be a DNA-Seq Alignment workflow on a 2.5Gb 
   - ram > 12 Gb
   - disk space > 50Gb 
 - Access to gdc-dnaseq-cwl workflow in github
-- Access to **gdcbackup** and **bio-performance-test** buckets. 
+- Access to **uchig-genomics-pipeline-us-east-1** buckets. 
 - Requirements on the instance: 
   - awscli
   - docker
@@ -75,7 +75,7 @@ cd gpas-aws-workflow-runner/workflows/
 
 - Download the input bam file file. 
 ```
-aws s3 cp --request-payer requester s3://gdcbackup/4a43affb-57a2-4fc6-a483-96716511ab5e/A77474_1_lane_dupsFlagged.bam .
+aws s3 cp s3://uchig-genomics-pipeline-us-east-1/4a43affb-57a2-4fc6-a483-96716511ab5e/A77474_1_lane_dupsFlagged.bam .
 ```
 
 - Edit `input.json` to update the location of the input and reference files. 
