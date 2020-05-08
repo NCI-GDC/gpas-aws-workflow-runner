@@ -1,0 +1,102 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.1",
+        "SM": "HCC1143",
+        "LB": "Sage-75643",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.1.CCAGTTAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.2",
+        "SM": "HCC1143",
+        "LB": "Sage-75643",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.2.CCAGTTAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.3",
+        "SM": "HCC1143",
+        "LB": "Sage-75643",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.3.CCAGTTAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.5",
+        "SM": "HCC1143",
+        "LB": "Sage-75643",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.5.CCAGTTAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.6",
+        "SM": "HCC1143",
+        "LB": "Sage-75643",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.6.CCAGTTAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.7",
+        "SM": "HCC1143",
+        "LB": "Sage-75643",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.7.CCAGTTAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-05-15T00:00:00-0400",
+        "ID": "D0UK2.4",
+        "SM": "HCC1143",
+        "LB": "Solexa-93456",
+        "PL": "illumina",
+        "PU": "D0UK2ACXX120515.4.CATGCTTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-05-15T00:00:00-0400",
+        "ID": "D0UK2.8",
+        "SM": "HCC1143",
+        "LB": "Solexa-93456",
+        "PL": "illumina",
+        "PU": "D0UK2ACXX120515.8.CATGCTTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-05-11T00:00:00-0400",
+        "ID": "D0UW5.4",
+        "SM": "HCC1143",
+        "LB": "Sage-93319",
+        "PL": "illumina",
+        "PU": "D0UW5ACXX120511.4.CATGCTTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-05-11T00:00:00-0400",
+        "ID": "D0UW5.8",
+        "SM": "HCC1143",
+        "LB": "Sage-93319",
+        "PL": "illumina",
+        "PU": "D0UW5ACXX120511.8.CATGCTTA",
+        "PM": null
+    }
+]

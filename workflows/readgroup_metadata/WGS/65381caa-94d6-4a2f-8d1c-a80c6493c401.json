@@ -1,0 +1,102 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2013-03-17T00:00:00-0400",
+        "ID": "C1Y1N.2",
+        "SM": "HCC1954",
+        "LB": "Solexa-147176",
+        "PL": "illumina",
+        "PU": "C1Y1NACXX130317.2.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.1",
+        "SM": "HCC1954",
+        "LB": "Sage-145866",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.1.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.2",
+        "SM": "HCC1954",
+        "LB": "Sage-145866",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.2.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.3",
+        "SM": "HCC1954",
+        "LB": "Sage-145866",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.3.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-17T00:00:00-0400",
+        "ID": "D20JD.1",
+        "SM": "HCC1954",
+        "LB": "Sage-145866",
+        "PL": "illumina",
+        "PU": "D20JDACXX130317.1.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-17T00:00:00-0400",
+        "ID": "D20JD.2",
+        "SM": "HCC1954",
+        "LB": "Sage-145866",
+        "PL": "illumina",
+        "PU": "D20JDACXX130317.2.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-07T00:00:00-0400",
+        "ID": "D25HW.2",
+        "SM": "HCC1954",
+        "LB": "Solexa-152749",
+        "PL": "illumina",
+        "PU": "D25HWACXX130507.2.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-07T00:00:00-0400",
+        "ID": "D25HW.3",
+        "SM": "HCC1954",
+        "LB": "Solexa-152749",
+        "PL": "illumina",
+        "PU": "D25HWACXX130507.3.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-07T00:00:00-0400",
+        "ID": "D25HW.4",
+        "SM": "HCC1954",
+        "LB": "Solexa-152749",
+        "PL": "illumina",
+        "PU": "D25HWACXX130507.4.TTGAATAG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-04-08T00:00:00-0400",
+        "ID": "H0A8Y.2",
+        "SM": "HCC1954",
+        "LB": "Solexa-152749",
+        "PL": "illumina",
+        "PU": "H0A8YADXX130408.2.TTGAATAG",
+        "PM": null
+    }
+]

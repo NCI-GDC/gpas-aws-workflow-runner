@@ -1,0 +1,222 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.1",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.1.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.2",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.2.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.3",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.3.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.4",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.4.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.5",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.5.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.6",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.6.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.7",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.7.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-22T00:00:00-0400",
+        "ID": "C17H4.8",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17H4ACXX121022.8.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "C17JT.1",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17JTACXX121021.1.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "C17JT.2",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17JTACXX121021.2.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "C17JT.3",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17JTACXX121021.3.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "C17JT.5",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17JTACXX121021.5.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "C17JT.6",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17JTACXX121021.6.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "C17JT.7",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "C17JTACXX121021.7.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.1",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.1.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.2",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.2.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.3",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.3.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.4",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.4.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.5",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.5.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.6",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.6.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.7",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.7.TAAGCACA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-10-21T00:00:00-0400",
+        "ID": "D1CFE.8",
+        "SM": "PK-1",
+        "LB": "Pond-184516",
+        "PL": "illumina",
+        "PU": "D1CFEACXX121021.8.TAAGCACA",
+        "PM": null
+    }
+]

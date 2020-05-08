@@ -1,0 +1,1032 @@
+[
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2650",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2652",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2654",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2656",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2658",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2659",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2661",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2663",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2665",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2667",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2669",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2671",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2673",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2675",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2677",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2679",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2681",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2684",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2685",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2687",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2689",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2691",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2693",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2695",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2697",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2699",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2701",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2702",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2704",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2706",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2708",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2710",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2711",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2713",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2715",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2717",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2719",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2721",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2723",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2725",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2726",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2728",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2730",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2732",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2734",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2736",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2738",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2740",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2742",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2744",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2746",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2748",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2750",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2752",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2754",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2756",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2758",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2760",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2761",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2763",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2765",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2766",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2768",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2770",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2771",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2773",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2775",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2777",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2778",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2780",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2782",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2784",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2786",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2788",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2789",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2791",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2793",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2794",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2795",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2796",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2797",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2798",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_6",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2799",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2800",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_7",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2801",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2802",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_8",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2803",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2804",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2805",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_5",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2806",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_4",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2807",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_1",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2808",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_3",
+        "PM": null
+    },
+    {
+        "CN": "unknown",
+        "DT": null,
+        "ID": "2809",
+        "SM": "COLO-829",
+        "LB": "532",
+        "PL": "ILLUMINA",
+        "PU": "0_2",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-05-26T01:00:00+0100",
+        "ID": "76",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "787_8",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-05-26T01:00:00+0100",
+        "ID": "77",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "787_6",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-05-26T01:00:00+0100",
+        "ID": "78",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "787_1",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-05-26T01:00:00+0100",
+        "ID": "81",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "787_2",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-07-18T01:00:00+0100",
+        "ID": "994",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "1065_6",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-07-18T01:00:00+0100",
+        "ID": "995",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "1065_1",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-07-18T01:00:00+0100",
+        "ID": "996",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "1065_3",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-07-18T01:00:00+0100",
+        "ID": "997",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "1065_7",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-07-18T01:00:00+0100",
+        "ID": "998",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "1065_2",
+        "PM": null
+    },
+    {
+        "CN": "SC",
+        "DT": "2008-07-18T01:00:00+0100",
+        "ID": "999",
+        "SM": "COLO-829",
+        "LB": "74",
+        "PL": "ILLUMINA",
+        "PU": "1065_5",
+        "PM": null
+    }
+]
