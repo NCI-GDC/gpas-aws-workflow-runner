@@ -1,0 +1,115 @@
+{
+    "bam_name": "D4491.Solexa-178364.2.gdc_realn.bam",
+    "job_uuid": "ee04ea82-3604-4cdd-b2d8-9c8a3de9ba38",
+    "collect_wgs_metrics": true,
+    "amplicon_kit_set_file_list": [],
+    "capture_kit_set_file_list": [],
+    "readgroup_fastq_pe_file_list": [],
+    "readgroup_fastq_se_file_list": [],
+    "readgroups_bam_file_list": [
+        {
+            "bam": {
+                "class": "File",
+                "path": "{PATH_TO}/D4491.Solexa-178364.2.bam",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "{PATH_TO}/D4491.Solexa-178364.2.bam.bai"
+                    }
+                ]
+            },
+            "readgroup_meta_list": [
+                {
+                    "CN": "BI",
+                    "DT": "2013-09-05T00:00:00-0400",
+                    "ID": "H7AH6.1",
+                    "SM": "HCC1954",
+                    "LB": "Solexa-178364",
+                    "PL": "illumina",
+                    "PU": "H7AH6ADXX130905.1.ATTCAGAA-CAGGACGT",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2013-09-05T00:00:00-0400",
+                    "ID": "H7AH6.2",
+                    "SM": "HCC1954",
+                    "LB": "Solexa-178364",
+                    "PL": "illumina",
+                    "PU": "H7AH6ADXX130905.2.ATTCAGAA-CAGGACGT",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2013-09-05T00:00:00-0400",
+                    "ID": "H7AH7.1",
+                    "SM": "HCC1954",
+                    "LB": "Solexa-178364",
+                    "PL": "illumina",
+                    "PU": "H7AH7ADXX130905.1.ATTCAGAA-CAGGACGT",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2013-09-05T00:00:00-0400",
+                    "ID": "H7AH7.2",
+                    "SM": "HCC1954",
+                    "LB": "Solexa-178364",
+                    "PL": "illumina",
+                    "PU": "H7AH7ADXX130905.2.ATTCAGAA-CAGGACGT",
+                    "PM": null
+                }
+            ]
+        }
+    ],
+    "common_biallelic_vcf": {
+        "class": "File",
+        "path": "{PATH_TO}/somatic-hg38_small_exac_common_3.hg38.vcf.gz",
+        "secondaryFiles": [
+            {
+                "class": "File",
+                "path": "{PATH_TO}/somatic-hg38_small_exac_common_3.hg38.vcf.gz.tbi"
+            }
+        ]
+    },
+    "known_snp": {
+        "class": "File",
+        "path": "{PATH_TO}/dbsnp_144.hg38.vcf.gz",
+        "secondaryFiles": [
+            {
+                "class": "File",
+                "path": "{PATH_TO}/dbsnp_144.hg38.vcf.gz.tbi"
+            }
+        ]
+    },
+    "run_markduplicates": true,
+    "reference_sequence": {
+        "class": "File",
+        "path": "{PATH_TO}/GRCh38.d1.vd1.fa",
+        "secondaryFiles": [
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.dict"
+            },
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.amb"
+            },
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.ann"
+            },
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.bwt"
+            }, {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.fai"
+            }, {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.pac"
+            }, {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.sa"
+            }
+        ]
+    },
+    "thread_count": 6
+}
