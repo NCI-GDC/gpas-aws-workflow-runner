@@ -8,7 +8,7 @@
     "readgroup_fastq_se_file_list": [],
     "readgroups_bam_file_list": [
         {
-            "bam": {"class":"File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/A77474_1_lane_dupsFlagged.bam"},
+            "bam": {"class":"File", "path": "/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/COLO-829-BL.bam"},
             "readgroup_meta_list": [
                 {
                   "CN": "BCGSC",

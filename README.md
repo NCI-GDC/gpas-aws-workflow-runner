@@ -75,11 +75,11 @@ cd gpas-aws-workflow-runner/workflows/
 
 - Download the input bam file file. 
 ```
-aws s3 cp s3://uchig-genomics-pipeline-us-east-1/4a43affb-57a2-4fc6-a483-96716511ab5e/A77474_1_lane_dupsFlagged.bam .
+aws s3 cp s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam /mnt/SCRATCH/playground/benchmark/BINF-308/wgs/COLO-829-BL.bam
 ```
 
 - Edit `input.json` to update the location of the input and reference files. 
-  - We saved the input file at `/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/A77474_1_lane_dupsFlagged.bam` but it can be anywhere really. 
+  - We saved the input file at `/mnt/SCRATCH/playground/benchmark/BINF-308/wgs/COLO-829-BL.bam` but it can be anywhere really. 
   - We saved the reference files under `/mnt/SCRATCH/reference/hwf/`
 
 ### Run workflow
