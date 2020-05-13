@@ -18,6 +18,7 @@ G25210.NCI-H510.1.bam|14671152886
 G27495.SNU-1079.2.bam|17759942243
 
 The example CWL input json is [here](rna.input.json)
+  * Please note the `job uuid` can be any string here. It will be used as a prefix for output file.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
 * Reference files: `input_mapping["reference_files"]["RNA-Seq alignment"]`

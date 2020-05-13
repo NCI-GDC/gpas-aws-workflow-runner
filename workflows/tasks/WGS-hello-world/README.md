@@ -3,6 +3,8 @@
 This task takes small-sized BAM files as input, and expects a relative short time to complete.
 
 The example CWL input json is [here](wgs.hello-world.input.json)
+  * Please note the `job uuid` can be any string here. It will be used as a prefix for sqlite db output file.
+  * `bam_name` will be used as the output file name.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
 * Reference files: `input_mapping["reference_files"]["DNA-Seq alignment"]`

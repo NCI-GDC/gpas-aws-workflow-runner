@@ -16,6 +16,7 @@ It should have 9 pairs with:
   * `C836.MDA-MB-415.1.gdc_realn.bam`
 
 The example CWL input json is [here](wxs.variant-calling.input.json)
+  * Please note the `job uuid` can be any string here. It will be used as a prefix for output file.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
 * Reference files: `input_mapping["reference_files"]["WXS somatic variant calling"]`

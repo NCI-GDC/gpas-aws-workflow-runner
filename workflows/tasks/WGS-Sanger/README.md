@@ -15,6 +15,9 @@ OR one pair from the hello world test:
 * Tumor: `COLO-829.gdc_realn.bam`
 
 The example CWL input json is [here](wgs.sanger.input.json)
+  * Please note the `job uuid` can be any string here. It will be used as a prefix for output file.
+  * `tumor/normal aliquot uuid` can be any string here as well. They will be used to annotate the output columns.
+
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
 * Reference files: `input_mapping["reference_files"]["WGS Sanger"]`

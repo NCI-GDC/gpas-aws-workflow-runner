@@ -13,6 +13,8 @@ G31860.HCC1143.1.bam|385484044509
 G15511.HCC1143.2.bam|493624207033
 
 The example CWL input json is [here](wgs.input.json)
+  * Please note the `job uuid` can be any string here. It will be used as a prefix for sqlite db output file.
+  * `bam_name` will be used as the output file name.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
 * Reference files: `input_mapping["reference_files"]["DNA-Seq alignment"]`

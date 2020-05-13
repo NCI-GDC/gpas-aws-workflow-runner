@@ -394,5 +394,5 @@
     },
     "threads": 8,
     "job_uuid": "e8385ceb-1e07-4176-8b80-4f9e75531007",
-    "picard_java_mem": 16
+    "picard_java_mem": 32
 }

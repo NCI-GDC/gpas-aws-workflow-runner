@@ -18,6 +18,8 @@ C836.DV-90.1.bam|10190305010
 C836.MDA-MB-415.1.bam|9714987738
 
 The example CWL input json is [here](wxs.input.json)
+  * Please note the `job uuid` can be any string here. It will be used as a prefix for sqlite db output file.
+  * `bam_name` will be used as the output file name.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
 * Reference files: `input_mapping["reference_files"]["DNA-Seq alignment"]`
