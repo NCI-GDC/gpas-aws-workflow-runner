@@ -75,7 +75,6 @@ cd gpas-aws-workflow-runner/workflows/
 - Download the input bam file and its index file.
 ```
 aws s3 cp s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam .
-aws s3 cp s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bai .
 
 ```
 
@@ -97,44 +96,16 @@ cd /mnt/SCRATCH
 ```
 
 
-### Tasks and Data
+### Tasks
 
-For different tasks (workflows), please check the [Input mapping json](workflows/input_mapping/input_mapping.json).
+[DNA-Seq WGS hello world](workflows/tasks/WGS-hello-world/README.md)
 
-For readgroup metadata, the mapping could be found at the [Read Group mapping tsv](workflows/input_mapping/url_uuid_mapping.tsv). </br>
-(The readgroup json is named by the uuid, not the file name.)
+[DNA-Seq WGS](workflows/tasks/WGS/README.md)
 
-#### DNA-Seq WGS (small size, first hello world task)
+[DNA-Seq WXS](workflows/tasks/WXS/README.md)
 
-Example input json is at [here](workflows/example_input_json/WGS-hello-world/wgs.hello-world.input.json).
+[RNA-Seq](workflows/tasks/RNA/README.md)
 
-#### DNA-Seq WGS (decent size)
+[DNA-Seq WGS Sanger variant calling](workflows/tasks/WGS-Sanger/README.md)
 
-Example input json is at [here](workflows/example_input_json/WGS/wgs.input.json). </br>
-
-These are all tumor samples. To run the sanger variant calling, we could use the first one as fake normal so that we have 4 pairs.
-(`D4491.Solexa-178364.2.bam`)
-
-#### DNA-Seq WXS
-
-Example input json is at [here](workflows/example_input_json/WXS/wxs.input.json). </br>
-
-These are all tumor samples as well. To run the somatic variant calling, we could use the first one as fake normal so that we have 9 pairs.
-(`C836.MKN74.2.bam`)
-
-
-#### RNA-Seq
-
-Example input json is at [here](workflows/example_input_json/RNA/rna.input.json). </br>
-
-
-#### DNA-Seq WGS Sanger somatic variant calling
-
-Example input json is at [here](workflows/example_input_json/WGS-Sanger/wgs.sanger.input.json). </br>
-
-
-#### DNA-Seq WXS somatic variant calling
-
-Example input json is at [here](workflows/example_input_json/WXS-variant-calling/wxs.variant-calling.input.json). </br>
-
-
+[DNA-Seq WXS somatic variant calling](workflows/tasks/WXS/README.md)
