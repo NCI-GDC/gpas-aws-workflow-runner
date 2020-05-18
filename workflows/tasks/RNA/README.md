@@ -1,4 +1,13 @@
 ## RNA-Seq
+Get rna-seq workflow
+```
+git clone -b feat/etl git@github.com:NCI-GDC/gdc-rnaseq-cwl.git
+```
+
+Pack workflow
+```
+~/gpas-aws-workflow-runner/workflows$ ./pack-workflow.sh ~/gdc-rnaseq-cwl/workflows/subworkflows/gdc_rnaseq_main_workflow.cwl
+```
 
 This task takes different sized RNA-Seq BAM files as input.
 
@@ -56,4 +65,17 @@ The read group metadata would need to be changed at the following section accord
 
 ```
 vi tasks/RNA/rna.input.json # and update readgroup_meta_list 
+```
+
+* Extract start tarfile.
+```
+cd /mnt/SCRATCH/files/
+tar -xvf star2.7.0f-GRCh38.d1.vd1-gtfv22.tar.gz
+```
+
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/rna-seq/run1/
+cd /mnt/SCRATCH/runs/rna-seq/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/RNA/rna.input.json |& tee -a run.log
 ```
