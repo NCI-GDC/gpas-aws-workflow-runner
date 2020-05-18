@@ -17,8 +17,21 @@ The example CWL input json is [here](wgs.input.json)
   * `bam_name` will be used as the output file name.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
+* Input data: `input_mapping["input_bam_files"]["WGS"]`. You can use the following command to download the files locally. Replace `D4491.Solexa-178364.2.bam` with the correct bam. This will download a bam/bai pair and save to `/mnt/SCRATCH/files/`.
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py input_bam_files "WGS" | grep D4491.Solexa-178364.2.bam | xargs -i aws s3 cp {} /mnt/SCRATCH/files/
+```
 * Reference files: `input_mapping["reference_files"]["DNA-Seq alignment"]`
-* Input data: `input_mapping["input_bam_files"]["WGS"]`
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py reference_files "DNA-Seq alignment" | xargs -i  aws s3 cp {} /mnt/SCRATCH/files/
+```
+
+
+* Update the file path in input.json.   
+```
+sed -i 's/{PATH_TO}/\/mnt\/SCRATCH\/files/' tasks/WGS/wgs.input.json
+```
+
 
 To run the GDC DNA-Seq workflow, you would need `Read Group` metadata for each BAM file. These could be found at:
 * [G31860.HCC1954.6.bam](../../readgroup_metadata/WGS/65381caa-94d6-4a2f-8d1c-a80c6493c401.json)
@@ -42,3 +55,7 @@ Use [G15509.K-562.2.bam](../../readgroup_metadata/WGS/65381caa-94d6-4a2f-8d1c-a8
   * `G31860.HCC1954.6.bam`
   * `G15511.HCC1143.2.bam`
   * `D4491.Solexa-178364.2.bam`
+```
+vi tasks/WGS/wgs.input.json # and update readgroup_meta_list 
+```
+

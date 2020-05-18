@@ -22,8 +22,20 @@ The example CWL input json is [here](wxs.input.json)
   * `bam_name` will be used as the output file name.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
+* Input data: `input_mapping["input_bam_files"]["WXS"]`. You can use the following command to download the files locally. Replace `C836.MKN74.2.bam` with the correct bam. This will download a bam/bai pair and save to `/mnt/SCRATCH/files/`
+
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py input_bam_files "WXS" | grep C836.MKN74.2.bam | xargs -i aws s3 cp {} /mnt/SCRATCH/files/
+```
 * Reference files: `input_mapping["reference_files"]["DNA-Seq alignment"]`
-* Input data: `input_mapping["input_bam_files"]["WXS"]`
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py reference_files "DNA-Seq alignment" | xargs -i  aws s3 cp {} /mnt/SCRATCH/files/
+```
+
+* Update the file path in input.json.   
+```
+sed -i 's/{PATH_TO}/\/mnt\/SCRATCH\/files/' tasks/WXS/wxs.input.json
+```
 
 To run the GDC DNA-Seq workflow, you would need `Read Group` metadata for each BAM file. These could be found at:
 * [C836.MKN74.2.bam](../../readgroup_metadata/WXS/eab21de1-bd9f-4916-a8e6-5b3b8540877b.json)
@@ -57,3 +69,7 @@ Use [C836.MJ.2.bam](../../readgroup_metadata/WXS/8c3dbcbe-818c-48bb-8105-ea31079
   * `C836.HCC1395.2.bam`
   * `C836.DV-90.1.bam`
   * `C836.MDA-MB-415.1.bam`
+
+```
+vi tasks/WXS/wxs.input.json # and update readgroup_meta_list 
+```

@@ -7,8 +7,21 @@ The example CWL input json is [here](wgs.hello-world.input.json)
   * `bam_name` will be used as the output file name.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
+* Input data: `input_mapping["input_bam_files"]["WGS-hello-world"]`. You can use the following command to download the files locally. Replace `COLO-829` with the correct bam. This will download a bam/bai pair and save to `/mnt/SCRATCH/files/`
+
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py input_bam_files "WGS-hello-world" | grep COLO-829 | xargs -i aws s3 cp {} /mnt/SCRATCH/files/
+```
 * Reference files: `input_mapping["reference_files"]["DNA-Seq alignment"]`
-* Input data: `input_mapping["input_bam_files"]["WGS-hello-world"]`
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py reference_files "DNA-Seq alignment" | xargs -i  aws s3 cp {} /mnt/SCRATCH/files/
+```
+
+* Update the file path in input.json.   
+```
+sed -i 's/{PATH_TO}/\/mnt\/SCRATCH\/files/' tasks/WGS-hello-world/wgs.hello-world.input.json
+```
+
 
 To run the GDC DNA-Seq workflow, you would need `Read Group` metadata for each BAM file. These could be found at:
 * [COLO-829.bam](../../readgroup_metadata/WGS-hello-world/COLO-829.json)
@@ -22,3 +35,7 @@ As this pair of WGS BAM is relative small, you could use this pair to first test
 
 * Normal: `COLO-829-BL.bam`
 * Tumor: `COLO-829.bam`
+
+```
+vi tasks/WGS-hello-world/wgs.hello-world.input.json # and update readgroup_meta_list 
+```

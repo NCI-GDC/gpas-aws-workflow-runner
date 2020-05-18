@@ -21,8 +21,20 @@ The example CWL input json is [here](rna.input.json)
   * Please note the `job uuid` can be any string here. It will be used as a prefix for output file.
 
 For the input data, please refer to [input_mapping.json](../../input_mapping/input_mapping.json):
+* Input data: `input_mapping["input_bam_files"]["RNA-Seq"]`. You can use the following command to download the files locally. Replace `G27518.SK-N-FI.2.bam` with the correct bam. This will download a bam/bai pair and save to `/mnt/SCRATCH/files/`
+
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py input_bam_files "RNA-Seq" | grep G27518.SK-N-FI.2.bam | xargs -i aws s3 cp {} /mnt/SCRATCH/files/
+```
 * Reference files: `input_mapping["reference_files"]["RNA-Seq alignment"]`
-* Input data: `input_mapping["input_bam_files"]["RNA-Seq"]`
+```
+{$HOME}/gpas-aws-workflow-runner/workflows# python input_mapping/files-to-download.py reference_files "RNA-Seq alignment" | xargs -i  aws s3 cp {} /mnt/SCRATCH/files/
+```
+
+* Update the file path in input.json.   
+```
+sed -i 's/{PATH_TO}/\/mnt\/SCRATCH\/files/' tasks/RNA/rna.input.json
+```
 
 To run the GDC RNA-Seq workflow, you would need `Read Group` metadata for each BAM file. These could be found at:
 * [G27518.SK-N-FI.2.bam](../../readgroup_metadata/RNA/e8385ceb-1e07-4176-8b80-4f9e75531007.json)
@@ -41,3 +53,7 @@ The read group metadata json is named by the UUID. You could also use [url_uuid_
 The read group metadata would need to be changed at the following section accordingly in the CWL input json:
 
 `cwl_input["readgroups_bam_file_list"]["readgroup_meta_list"]`
+
+```
+vi tasks/RNA/rna.input.json # and update readgroup_meta_list 
+```
