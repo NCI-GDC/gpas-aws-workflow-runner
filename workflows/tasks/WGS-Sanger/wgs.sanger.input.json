@@ -1,0 +1,55 @@
+{
+    "sanger_threads": 20,
+    "other_threads": 6,
+    "job_uuid": "d805ed95-9e56-4244-9535-e71fc337dd38",
+    "tumor_aliquot_uuid": "e496d0e1-499d-4118-a5ee-b7d4f9788ca3",
+    "normal_aliquot_uuid": "11161362-90e9-40c4-9877-746bfab7b320",
+    "gdc_reference": {
+        "class": "File",
+        "path": "{PATH_TO}/GRCh38.d1.vd1.fa"
+    },
+    "sequence_dict": {
+        "class": "File",
+        "path": "{PATH_TO}/GRCh38.d1.vd1.dict"
+    },
+    "reference_fai": {
+        "class": "File",
+        "path": "{PATH_TO}/GRCh38.d1.vd1.fa.fai"
+    },
+    "core_reference_tar": {
+        "class": "File",
+        "path": "{PATH_TO}/core_ref_gdc_cgp.tar.gz"
+    },
+    "vagrent_cache": {
+        "class": "File",
+        "path": "{PATH_TO}/gdc_vagrent_homo_sapiens_core_80_38.tar.gz"
+    },
+    "snv_indel_tar": {
+        "class": "File",
+        "path": "{PATH_TO}/SNV_INDEL_ref_GRCh38_hla_decoy_ebv-fragment.tar.gz"
+    },
+    "cnv_sv_tar": {
+        "class": "File",
+        "path": "{PATH_TO}/CNV_SV_ref_GRCh38_hla_decoy_ebv_brass6.tar.gz"
+    },
+    "qcset_tar": {
+        "class": "File",
+        "path": "{PATH_TO}/qcGenotype_GRCh38_hla_decoy_ebv.tar.gz"
+    },
+    "tumor_bam": {
+        "class": "File",
+        "path": "{PATH_TO}/COLO-829.gdc_realn.bam"
+    },
+    "tumor_index": {
+        "class": "File",
+        "path": "{PATH_TO}/COLO-829.gdc_realn.bai"
+    },
+    "normal_bam": {
+        "class": "File",
+        "path": "{PATH_TO}/COLO-829-BL.gdc_realn.bam"
+    },
+    "normal_index": {
+        "class": "File",
+        "path": "{PATH_TO}/COLO-829-BL.gdc_realn.bai"
+    }
+}

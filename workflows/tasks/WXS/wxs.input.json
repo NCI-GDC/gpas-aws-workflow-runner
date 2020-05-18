@@ -1,0 +1,289 @@
+{
+    "bam_name": "C836.MKN74.2.gdc_realn.bam",
+    "job_uuid": "eab21de1-bd9f-4916-a8e6-5b3b8540877b",
+    "collect_wgs_metrics": false,
+    "amplicon_kit_set_file_list": [],
+    "capture_kit_set_file_list": [],
+    "readgroup_fastq_pe_file_list": [],
+    "readgroup_fastq_se_file_list": [],
+    "readgroups_bam_file_list": [
+        {
+            "bam": {
+                "class": "File",
+                "path": "{PATH_TO}/C836.MKN74.2.bam",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "{PATH_TO}/C836.MKN74.2.bam.bai"
+                    }
+                ]
+            },
+            "readgroup_meta_list": [
+                {
+                    "CN": "BI",
+                    "DT": "2012-03-12T00:00:00-0400",
+                    "ID": "C0FH2.7",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FH2ACXX120312.7.TTACGCAC",
+                    "PM": null
+                },
+                {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.1",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.1.TTACGCAC",
+                    "PM": null
+                },
+                {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.2",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.2.TTACGCAC",
+                    "PM": null
+                },
+                {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.3",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.3.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.4",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.4.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.5",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.5.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.6",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.6.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.7",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.7.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-06T00:00:00-0500",
+                    "ID": "C0FJ4.8",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "C0FJ4ACXX120306.8.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0MUK.3",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0MUKACXX120302.3.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0MUK.4",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0MUKACXX120302.4.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0MUK.5",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0MUKACXX120302.5.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0MUK.6",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0MUKACXX120302.6.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0MUK.7",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0MUKACXX120302.7.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0MUK.8",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0MUKACXX120302.8.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.1",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.1.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.2",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.2.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.3",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.3.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.4",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.4.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.5",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.5.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.6",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.6.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.7",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.7.TTACGCAC",
+                    "PM": null
+                }, {
+                    "CN": "BI",
+                    "DT": "2012-03-02T00:00:00-0500",
+                    "ID": "D0N3R.8",
+                    "SM": "MKN74",
+                    "LB": "Pond-141086",
+                    "PL": "illumina",
+                    "PU": "D0N3RACXX120302.8.TTACGCAC",
+                    "PM": null
+                }
+            ]
+        }
+    ],
+    "common_biallelic_vcf": {
+        "class": "File",
+        "path": "{PATH_TO}/somatic-hg38_small_exac_common_3.hg38.vcf.gz",
+        "secondaryFiles": [
+            {
+                "class": "File",
+                "path": "{PATH_TO}/somatic-hg38_small_exac_common_3.hg38.vcf.gz.tbi"
+            }
+        ]
+    },
+    "known_snp": {
+        "class": "File",
+        "path": "{PATH_TO}/dbsnp_144.hg38.vcf.gz",
+        "secondaryFiles": [
+            {
+                "class": "File",
+                "path": "{PATH_TO}/dbsnp_144.hg38.vcf.gz.tbi"
+            }
+        ]
+    },
+    "run_markduplicates": true,
+    "reference_sequence": {
+        "class": "File",
+        "path": "{PATH_TO}/GRCh38.d1.vd1.fa",
+        "secondaryFiles": [
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.dict"
+            },
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.amb"
+            },
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.ann"
+            },
+            {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.bwt"
+            }, {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.fai"
+            }, {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.pac"
+            }, {
+                "class": "File",
+                "path": "{PATH_TO}/GRCh38.d1.vd1.fa.sa"
+            }
+        ]
+    },
+    "thread_count": 6
+}

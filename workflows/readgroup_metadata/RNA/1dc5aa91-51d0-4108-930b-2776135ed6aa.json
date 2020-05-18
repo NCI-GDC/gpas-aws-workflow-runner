@@ -1,0 +1,382 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.1",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.1.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.2",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.2.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.3",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.3.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.4",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.4.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.5",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.5.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.6",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.6.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.7",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.7.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-05T00:00:00-0500",
+        "ID": "C1GW0.8",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1GW0ACXX130205.8.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-02T00:00:00-0500",
+        "ID": "C1H0H.3",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1H0HACXX130202.3.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.1",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.1.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.2",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.2.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.3",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.3.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.4",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.4.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.5",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.5.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.6",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.6.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.7",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.7.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-03T00:00:00-0500",
+        "ID": "C1MYA.8",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "C1MYAACXX130303.8.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-01-26T00:00:00-0500",
+        "ID": "D1KUU.4",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1KUUACXX130126.4.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-01-26T00:00:00-0500",
+        "ID": "D1KUU.5",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1KUUACXX130126.5.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-01-26T00:00:00-0500",
+        "ID": "D1KUU.6",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1KUUACXX130126.6.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-01-26T00:00:00-0500",
+        "ID": "D1KUU.7",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1KUUACXX130126.7.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-01-26T00:00:00-0500",
+        "ID": "D1KUU.8",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1KUUACXX130126.8.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.1",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.1.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.2",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.2.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.3",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.3.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.4",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.4.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.5",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.5.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.6",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.6.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.7",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.7.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-06T00:00:00-0500",
+        "ID": "D1M4A.8",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M4AACXX130206.8.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.1",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.1.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.2",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.2.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.3",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.3.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.4",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.4.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.5",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.5.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.6",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.6.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.7",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.7.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-02-08T00:00:00-0500",
+        "ID": "D1M5K.8",
+        "SM": "J82",
+        "LB": "Solexa-133830",
+        "PL": "illumina",
+        "PU": "D1M5KACXX130208.8.CTACCAGG",
+        "PM": null
+    }
+]

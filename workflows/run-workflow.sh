@@ -1,5 +1,5 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-INPUT_JSON=${DIR}/input.json
+INPUT_JSON=${1:-${DIR}/example_input_json/WGS-hello-world/wgs.hello-world.input.json}
 PACKED_WORKFLOW=${DIR}/packed.json
 CACHE=/mnt/cache
 TMP=/mnt/tmp

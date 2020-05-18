@@ -1,0 +1,192 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "C0FPV.3",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPVACXX120305.3.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "C0FPV.4",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPVACXX120305.4.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "C0FPV.5",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPVACXX120305.5.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "C0FPV.6",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPVACXX120305.6.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "C0FPV.7",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPVACXX120305.7.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "C0FPV.8",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPVACXX120305.8.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-01T00:00:00-0500",
+        "ID": "C0FPW.1",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPWACXX120301.1.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-01T00:00:00-0500",
+        "ID": "C0FPW.2",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPWACXX120301.2.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-01T00:00:00-0500",
+        "ID": "C0FPW.3",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPWACXX120301.3.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-01T00:00:00-0500",
+        "ID": "C0FPW.5",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPWACXX120301.5.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-01T00:00:00-0500",
+        "ID": "C0FPW.6",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "C0FPWACXX120301.6.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.1",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.1.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.2",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.2.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.3",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.3.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.4",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.4.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.5",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.5.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.6",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.6.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.7",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.7.GTCATCTA",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2012-03-05T00:00:00-0500",
+        "ID": "D0N5Y.8",
+        "SM": "MDA-MB-415",
+        "LB": "Pond-140802",
+        "PL": "illumina",
+        "PU": "D0N5YACXX120305.8.GTCATCTA",
+        "PM": null
+    }
+]

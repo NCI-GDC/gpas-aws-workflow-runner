@@ -1,0 +1,122 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2013-03-21T00:00:00-0400",
+        "ID": "C1Y1J.1",
+        "SM": "HCC1143",
+        "LB": "Solexa-147203",
+        "PL": "illumina",
+        "PU": "C1Y1JACXX130321.1.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-21T00:00:00-0400",
+        "ID": "C1Y1J.2",
+        "SM": "HCC1143",
+        "LB": "Solexa-147203",
+        "PL": "illumina",
+        "PU": "C1Y1JACXX130321.2.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-03-17T00:00:00-0400",
+        "ID": "C1Y1N.1",
+        "SM": "HCC1143",
+        "LB": "Solexa-147172",
+        "PL": "illumina",
+        "PU": "C1Y1NACXX130317.1.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.4",
+        "SM": "HCC1143",
+        "LB": "Solexa-147172",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.4.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.5",
+        "SM": "HCC1143",
+        "LB": "Solexa-147172",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.5.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.6",
+        "SM": "HCC1143",
+        "LB": "Solexa-147172",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.6.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.7",
+        "SM": "HCC1143",
+        "LB": "Solexa-152748",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.7.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-06T00:00:00-0400",
+        "ID": "C24AN.8",
+        "SM": "HCC1143",
+        "LB": "Solexa-152748",
+        "PL": "illumina",
+        "PU": "C24ANACXX130506.8.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-29T00:00:00-0400",
+        "ID": "C26GR.1",
+        "SM": "HCC1143",
+        "LB": "Solexa-147203",
+        "PL": "illumina",
+        "PU": "C26GRACXX130529.1.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-29T00:00:00-0400",
+        "ID": "C26GR.2",
+        "SM": "HCC1143",
+        "LB": "Solexa-147203",
+        "PL": "illumina",
+        "PU": "C26GRACXX130529.2.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-05-07T00:00:00-0400",
+        "ID": "D25HW.1",
+        "SM": "HCC1143",
+        "LB": "Solexa-152748",
+        "PL": "illumina",
+        "PU": "D25HWACXX130507.1.AAGACACT",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2013-04-08T00:00:00-0400",
+        "ID": "H0A8Y.2",
+        "SM": "HCC1143",
+        "LB": "Solexa-152748",
+        "PL": "illumina",
+        "PU": "H0A8YADXX130408.2.AAGACACT",
+        "PM": null
+    }
+]

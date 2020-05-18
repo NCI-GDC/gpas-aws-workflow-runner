@@ -1,0 +1,52 @@
+[
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.4",
+        "SM": "K-562",
+        "LB": "Sage-75633",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.4.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0ENM.8",
+        "SM": "K-562",
+        "LB": "Sage-75633",
+        "PL": "illumina",
+        "PU": "D0ENMACXX111207.8.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0F27.1",
+        "SM": "K-562",
+        "LB": "Sage-75633",
+        "PL": "illumina",
+        "PU": "D0F27ACXX111207.1.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0F27.2",
+        "SM": "K-562",
+        "LB": "Sage-75633",
+        "PL": "illumina",
+        "PU": "D0F27ACXX111207.2.CTACCAGG",
+        "PM": null
+    },
+    {
+        "CN": "BI",
+        "DT": "2011-12-07T00:00:00-0500",
+        "ID": "D0F27.3",
+        "SM": "K-562",
+        "LB": "Sage-75633",
+        "PL": "illumina",
+        "PU": "D0F27ACXX111207.3.CTACCAGG",
+        "PM": null
+    }
+]
