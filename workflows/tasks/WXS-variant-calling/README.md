@@ -1,4 +1,4 @@
-## DNA-Seq WGS Sanger variant calling
+## DNA-Seq WXS somatic variant calling
 
 Get gdc-somatic-variant-calling-workflow workflow
 ```
@@ -11,7 +11,7 @@ Pack workflow
 ```
 
 
-This task takes the "harmonized" WGS BAM files which are the outputs from the previous run [DNA-Seq WGS](workflows/tasks/WGS/README.md).
+This task takes the "harmonized" WXS BAM files which are the outputs from the previous run [DNA-Seq WXS](../WXS/README.md).
 
 It should have 4 pairs with:
 * Normal: `G15509.K-562.2.gdc_realn.bam`
@@ -40,5 +40,12 @@ For the input data, please refer to [input_mapping.json](../../input_mapping/inp
 
 * Update the file path in input.json.   
 ```
-sed -i 's/{PATH_TO}/\/mnt\/SCRATCH\/files/' tasks/WGS-Sanger/wgs.sanger.input.json 
+sed -i 's/{PATH_TO}/\/mnt\/SCRATCH\/files/' tasks/WXS-variant-calling/wxs.variant-calling.input.json
+```
+
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wgs-vc/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wgs-vc/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WXS-variant-calling/wxs.variant-calling.input.json |& tee -a run.log
 ```

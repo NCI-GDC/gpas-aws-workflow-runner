@@ -83,3 +83,10 @@ Use [C836.MJ.2.bam](../../readgroup_metadata/WXS/8c3dbcbe-818c-48bb-8105-ea31079
 ```
 vi tasks/WXS/wxs.input.json # and update readgroup_meta_list 
 ```
+
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wxs/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wxs/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WXS/wxs.input.json |& tee -a run.log
+```

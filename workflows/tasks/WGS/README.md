@@ -69,3 +69,9 @@ Use [G15509.K-562.2.bam](../../readgroup_metadata/WGS/65381caa-94d6-4a2f-8d1c-a8
 vi tasks/WGS/wgs.input.json # and update readgroup_meta_list 
 ```
 
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wgs/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wgs/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WGS/wgs.input.json |& tee -a run.log
+```

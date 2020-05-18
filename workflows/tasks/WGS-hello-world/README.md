@@ -49,3 +49,10 @@ As this pair of WGS BAM is relative small, you could use this pair to first test
 ```
 vi tasks/WGS-hello-world/wgs.hello-world.input.json # and update readgroup_meta_list 
 ```
+
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wgs-hw/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wgs-hw/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WGS-hello-world/wgs.hello-world.input.json |& tee -a run.log
+```
