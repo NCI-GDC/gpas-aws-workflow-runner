@@ -1,5 +1,15 @@
 ## DNA-Seq WGS
 
+Get dna-seq workflow
+```
+git clone -b feat/BINF-309 git@github.com:NCI-GDC/gdc-dnaseq-cwl.git
+```
+
+Pack workflow
+```
+~/gpas-aws-workflow-runner/workflows$ ./pack-workflow.sh ~/gdc-dnaseq-cwl/workflows/main/gdc_dnaseq_main_workflow.cwl
+```
+
 This task takes different large-sized WGS BAM files as input, and expects a relative long time to complete.
 
 The size range is 200-500G.
@@ -59,3 +69,9 @@ Use [G15509.K-562.2.bam](../../readgroup_metadata/WGS/65381caa-94d6-4a2f-8d1c-a8
 vi tasks/WGS/wgs.input.json # and update readgroup_meta_list 
 ```
 
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wgs/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wgs/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WGS/wgs.input.json |& tee -a run.log
+```

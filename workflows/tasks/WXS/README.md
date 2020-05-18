@@ -1,5 +1,15 @@
 ## DNA-Seq WXS
 
+Get dna-seq workflow
+```
+git clone -b feat/BINF-309 git@github.com:NCI-GDC/gdc-dnaseq-cwl.git
+```
+
+Pack workflow
+```
+~/gpas-aws-workflow-runner/workflows$ ./pack-workflow.sh ~/gdc-dnaseq-cwl/workflows/main/gdc_dnaseq_main_workflow.cwl
+```
+
 This task takes different sized WXS BAM files as input.
 
 The size range is 8-20G.
@@ -72,4 +82,11 @@ Use [C836.MJ.2.bam](../../readgroup_metadata/WXS/8c3dbcbe-818c-48bb-8105-ea31079
 
 ```
 vi tasks/WXS/wxs.input.json # and update readgroup_meta_list 
+```
+
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wxs/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wxs/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WXS/wxs.input.json |& tee -a run.log
 ```

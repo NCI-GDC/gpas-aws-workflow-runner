@@ -1,5 +1,15 @@
 ## DNA-Seq WGS hello world
 
+Get rna-seq workflow
+```
+git clone -b feat/BINF-309 git@github.com:NCI-GDC/gdc-dnaseq-cwl.git
+```
+
+Pack workflow
+```
+~/gpas-aws-workflow-runner/workflows$ ./pack-workflow.sh ~/gdc-dnaseq-cwl/workflows/main/gdc_dnaseq_main_workflow.cwl
+```
+
 This task takes small-sized BAM files as input, and expects a relative short time to complete.
 
 The example CWL input json is [here](wgs.hello-world.input.json)
@@ -38,4 +48,11 @@ As this pair of WGS BAM is relative small, you could use this pair to first test
 
 ```
 vi tasks/WGS-hello-world/wgs.hello-world.input.json # and update readgroup_meta_list 
+```
+
+* Run workflow 
+```
+mkdir -p /mnt/SCRATCH/runs/dna-seq-wgs-hw/run1/
+cd /mnt/SCRATCH/runs/dna-seq-wgs-hw/run1/
+time $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/WGS-hello-world/wgs.hello-world.input.json |& tee -a run.log
 ```
