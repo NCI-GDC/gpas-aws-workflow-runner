@@ -1,5 +1,15 @@
 ## DNA-Seq WXS
 
+Get dna-seq workflow
+```
+git clone -b feat/BINF-309 git@github.com:NCI-GDC/gdc-dnaseq-cwl.git
+```
+
+Pack workflow
+```
+~/gpas-aws-workflow-runner/workflows$ ./pack-workflow.sh ~/gdc-dnaseq-cwl/workflows/main/gdc_dnaseq_main_workflow.cwl
+```
+
 This task takes different sized WXS BAM files as input.
 
 The size range is 8-20G.

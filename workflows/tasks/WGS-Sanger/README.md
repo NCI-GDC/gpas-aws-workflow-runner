@@ -1,5 +1,15 @@
 ## DNA-Seq WGS Sanger variant calling
 
+Get gdc-somatic-variant-calling-workflow workflow
+```
+git clone git@github.com:NCI-GDC/gdc-sanger-somatic-cwl.git
+```
+
+Pack workflow
+```
+~/gpas-aws-workflow-runner/workflows$ ./pack-workflow.sh ~/gdc-sanger-somatic-cwl/workflows/subworkflows/main_gdc_wgs_workflow.cwl
+```
+
 This task takes the "harmonized" WGS BAM files which are the outputs from the previous run [DNA-Seq WGS](workflows/tasks/WGS/README.md).
 
 It should have 4 pairs with:
