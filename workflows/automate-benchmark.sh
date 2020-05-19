@@ -1,5 +1,7 @@
 #! /bin/bash
 
+filename=COLO-829-BL
+
 # install needed packages
 sudo yum update -y
 sudo yum install git -y
@@ -32,25 +34,22 @@ sudo gpasswd -a $USER docker
 {
   # get the needed input data
   cd gpas-aws-workflow-runner/workflows/
-  ./download-input-files.sh
 
-  # change references to ubuntu user home to whatever the home is for this user
-  sed -i 's#/home/ubuntu#$HOME#g' ./pack-workflow.sh
-  sed -i 's#/home/ubuntu#$HOME#g' ./run-workflow.sh
+  # pull reference files
+  python input_mapping/files-to-download.py reference_files "DNA-Seq alignment" | xargs -i  aws s3 cp {} /mnt/SCRATCH/files/
+
+  # pull input bam/bai pair
+  python input_mapping/files-to-download.py input_bam_files "WGS-hello-world" | grep $filename | xargs -i aws s3 cp {} /mnt/SCRATCH/files/
 
   # pack the workflow
   ./pack-workflow.sh $HOME/gdc-dnaseq-cwl/workflows/main/gdc_dnaseq_main_workflow.cwl
-
-  # Get the BAM file from s3
-  aws s3 cp s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam /mnt/SCRATCH/reference/hwf/COLO-829-BL.bam
-  aws s3 cp s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bai /mnt/SCRATCH/reference/hwf/COLO-829-BL.bai
 
   # adjust the thread_count in job inputs to the actual vCPU of the EC2
   cpucount=`nproc`
   cd $HOME/gpas-aws-workflow-runner/workflows/tasks/WGS-hello-world
   jq --argjson a $cpucount '.thread_count = $a' wgs.hello-world.input.json > tmp.json && mv tmp.json wgs.hello-world.input.json
 
-  sed -i 's|{PATH_TO}|/mnt/SCRATCH/reference/hwf|' wgs.hello-world.input.json
+  sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' wgs.hello-world.input.json
 
   cd /mnt/SCRATCH
 
