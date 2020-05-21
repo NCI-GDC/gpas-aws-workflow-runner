@@ -98,25 +98,31 @@ sudo gpasswd -a $USER docker
   [[ "$workflow" == "RNA-Seq" ]] && pushd /mnt/SCRATCH/files && tar -xvf star2.7.0f-GRCh38.d1.vd1-gtfv22.tar.gz && popd
 
   # pack the workflow
-  ./pack-workflow.sh $HOME/$cwl_file
+  echo ./pack-workflow.sh $HOME/$cwl_file
 
   # use tmpfile to create new json
   tmpfile=$(mktemp /tmp/input.json.XXXXXX)
 
   # adjust the thread_count in job inputs to the actual vCPU of the EC2
   cpucount=`nproc`
-  jq --argjson numcpu $cpucount '.thread_count = $numcpu' tasks/$input_json > $tmpfile 
 
   # select readgroup json for inputfile
   readgroup_uuid=$(grep $filename input_mapping/url_uuid_mapping.tsv | awk '{print $2}')
   readgroup_json="$(cat readgroup_metadata/$readgroup_dir/${readgroup_uuid}.json)"
-  jq --argjson json "$readgroup_json" '.readgroups_bam_file_list[0].readgroup_meta_list = $json' $tmpfile | sponge $tmpfile
 
-  # update path
+  # update json
+  jq --argjson json "$readgroup_json" --argjson numcpu $cpucount --arg bam_name "${filename}" --arg uuid "$readgroup_uuid" \
+	            '.readgroups_bam_file_list[0].readgroup_meta_list = $json | 
+	             .bam_name = $bam_name |
+	             .job_uuid = $uuid |
+	             .thread_count = $numcpu' tasks/$input_json > $tmpfile
+
+  # update path and move to original location
   sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' $tmpfile
+  sed -i "s|{FILENAME}|$filename|" $tmpfile
 
-  # move tmpfile back to original location
-  mv $tmpfile tasks/$input_json
+  # move file to orignal location
+  mv $tmpfile input.json 
 
   # move to directory with enough disk space
   pushd /mnt/SCRATCH
@@ -132,7 +138,7 @@ sudo gpasswd -a $USER docker
   sadc_pid=$!
 
   # time the job (we use gnu time /usr/bin/time rather than the bash built in)
-  /usr/bin/time -v -o "time.txt" $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/tasks/$input_json &> log.txt
+  /usr/bin/time -v -o "time.txt" $HOME/gpas-aws-workflow-runner/workflows/run-workflow.sh $HOME/gpas-aws-workflow-runner/workflows/input.json &> log.txt
 }
 
 # run at the end to dump out logs to s3 and then shut down

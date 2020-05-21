@@ -3,11 +3,11 @@
         {
             "bam": {
                 "class": "File",
-                "path": "{PATH_TO}/G27518.SK-N-FI.2.bam",
+                "path": "{PATH_TO}/{FILENAME}",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "{PATH_TO}/G27518.SK-N-FI.2.bam.bai"
+                        "path": "{PATH_TO}/{FILENAME}.bai"
                     }
                 ]
             },
