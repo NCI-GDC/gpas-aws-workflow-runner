@@ -98,7 +98,7 @@ sudo gpasswd -a $USER docker
   [[ "$workflow" == "RNA-Seq" ]] && pushd /mnt/SCRATCH/files && tar -xvf star2.7.0f-GRCh38.d1.vd1-gtfv22.tar.gz && popd
 
   # pack the workflow
-  echo ./pack-workflow.sh $HOME/$cwl_file
+  ./pack-workflow.sh $HOME/$cwl_file
 
   # use tmpfile to create new json
   tmpfile=$(mktemp /tmp/input.json.XXXXXX)
