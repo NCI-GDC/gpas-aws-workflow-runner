@@ -144,7 +144,7 @@ sudo gpasswd -a $USER docker
 # run at the end to dump out logs to s3 and then shut down
 {
   summary_bucket_path="s3://uchig-genomics-pipeline-us-east-1/benchmarks"
-  benchmark_name="$workflow_$filename"
+  benchmark_name="${workflow}_${filename}"
   TOKEN=`curl --silent -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
   instance_type=`curl -H "X-aws-ec2-metadata-token: $TOKEN" --silent http://169.254.169.254/latest/meta-data/instance-type`
   instance_id=`curl -H "X-aws-ec2-metadata-token: $TOKEN" --silent http://169.254.169.254/latest/meta-data/instance-id`
