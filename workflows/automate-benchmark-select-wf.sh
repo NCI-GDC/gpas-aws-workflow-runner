@@ -28,7 +28,7 @@ sudo chmod 777 /mnt
 mkdir -p /mnt/SCRATCH
 
 # get workflow runner code
-git clone https://github.com/NCI-GDC/gpas-aws-workflow-runner.git
+git clone -b aws-automate https://github.com/NCI-GDC/gpas-aws-workflow-runner.git
 
 # get the workflow scripts
 case "$workflow" in
@@ -54,7 +54,7 @@ case "$workflow" in
       cwl_file=gdc-rnaseq-cwl/workflows/subworkflows/gdc_rnaseq_main_workflow.cwl
       input_json=RNA/rna.input.json
       readgroup_dir=RNA
-      git clone -b feat/etl git@github.com:NCI-GDC/gdc-rnaseq-cwl.git
+      git clone -b feat/etl https://github.com/NCI-GDC/gdc-rnaseq-cwl.git 
       ;;
   DNA-Seq-WGS-Sanger)
       input_mapping_refname="WGS Sanger"
@@ -62,7 +62,7 @@ case "$workflow" in
       cwl_file=gdc-sanger-somatic-cwl/workflows/subworkflows/main_gdc_wgs_workflow.cwl
       input_json=WGS-Sanger/wgs.sanger.input.json
       readgroup_dir=
-      git clone git@github.com:NCI-GDC/gdc-sanger-somatic-cwl.git
+      git clone https://github.com/NCI-GDC/gdc-sanger-somatic-cwl.git 
       ;;
   DNA-Seq-WXS-Somatic)
       input_mapping_refname="WXS somatic variant calling"
@@ -70,7 +70,7 @@ case "$workflow" in
       cwl_file=gdc-somatic-variant-calling-workflow/workflows/gdc-somatic-variant-calling-workflow.cwl
       input_json=WXS-variant-calling/wxs.variant-calling.input.json
       readgroup_dir=
-      git clone git@github.com:NCI-GDC/gdc-somatic-variant-calling-workflow.git --recursive
+      git clone https://github.com/NCI-GDC/gdc-somatic-variant-calling-workflow.git --recursive
       ;;
   *)
       echo "Incorrect workflow provided."
@@ -112,7 +112,7 @@ sudo gpasswd -a $USER docker
 
   # update json
   jq --argjson json "$readgroup_json" --argjson numcpu $cpucount --arg bam_name "${filename}" --arg uuid "$readgroup_uuid" \
-	            '.readgroups_bam_file_list[0].readgroup_meta_list = $json | 
+	            '.readgroup_bam_file_list[0].readgroup_meta_list = $json | 
 	             .bam_name = $bam_name |
 	             .job_uuid = $uuid |
 	             .thread_count = $numcpu' tasks/$input_json > $tmpfile
