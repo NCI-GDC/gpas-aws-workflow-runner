@@ -10,11 +10,11 @@
         {
             "bam": {
                 "class": "File",
-                "path": "{PATH_TO}/C836.MKN74.2.bam",
+                "path": "{PATH_TO}/{FILENAME}",
                 "secondaryFiles": [
                     {
                         "class": "File",
-                        "path": "{PATH_TO}/C836.MKN74.2.bam.bai"
+                        "path": "{PATH_TO}/{FILENAME}.bai"
                     }
                 ]
             },
