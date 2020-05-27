@@ -58,7 +58,7 @@ case "$workflow" in
       ;;
   DNA-Seq-WGS-Sanger)
       input_mapping_refname="WGS Sanger"
-      input_mapping_inputname=""
+      input_mapping_inputname="WGS-Sanger"
       cwl_file=gdc-sanger-somatic-cwl/workflows/subworkflows/main_gdc_wgs_workflow.cwl
       input_json=WGS-Sanger/wgs.sanger.input.json
       readgroup_dir=
@@ -106,21 +106,35 @@ sudo gpasswd -a $USER docker
   # adjust the thread_count in job inputs to the actual vCPU of the EC2
   cpucount=`nproc`
 
-  # select readgroup json for inputfile
-  readgroup_uuid=$(grep $filename input_mapping/url_uuid_mapping.tsv | awk '{print $2}')
-  readgroup_json="$(cat readgroup_metadata/$readgroup_dir/${readgroup_uuid}.json)"
+  if [[ "$workflow" == "DNA-Seq-WGS-Sanger" ]]; then
+    sanger_threads=$(($cpucount - 2))
+    fourth=$(echo "$cpucount/4"| bc)
+    [[ $fourth -gt 8 ]] && other_threads=8 || other_threads=$fourth
+    echo $sanger_threads $other_threads tasks/$input_json
+    # update json
+    jq --argjson sanger_threads $sanger_threads --argjson other_threads $other_threads \
+                           '.sanger_threads = $sanger_threads | 
+                            .other_threads = $other_threads' tasks/$input_json > $tmpfile
 
-  # update json
-  jq --argjson json "$readgroup_json" --argjson numcpu $cpucount --arg bam_name "${filename}" --arg uuid "$readgroup_uuid" \
-	            '.readgroup_bam_file_list[0].readgroup_meta_list = $json | 
-	             .bam_name = $bam_name |
-	             .job_uuid = $uuid |
-	             .thread_count = $numcpu' tasks/$input_json > $tmpfile
+    # update path and move to original location
+    sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' $tmpfile
+  else
 
-  # update path and move to original location
-  sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' $tmpfile
-  sed -i "s|{FILENAME}|$filename|" $tmpfile
+    # select readgroup json for inputfile
+    readgroup_uuid=$(grep $filename input_mapping/url_uuid_mapping.tsv | awk '{print $2}')
+    readgroup_json="$(cat readgroup_metadata/$readgroup_dir/${readgroup_uuid}.json)"
 
+    # update json
+    jq --argjson json "$readgroup_json" --argjson numcpu $cpucount --arg bam_name "${filename}" --arg uuid "$readgroup_uuid" \
+                      '.readgroup_bam_file_list[0].readgroup_meta_list = $json | 
+                       .bam_name = $bam_name |
+                       .job_uuid = $uuid |
+                       .thread_count = $numcpu' tasks/$input_json > $tmpfile
+
+    # update path and move to original location
+    sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' $tmpfile
+    sed -i "s|{FILENAME}|$filename|" $tmpfile
+  fi
   # move file to orignal location
   mv $tmpfile input.json 
 
