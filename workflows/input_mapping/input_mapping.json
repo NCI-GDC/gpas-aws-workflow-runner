@@ -51,6 +51,10 @@
          "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam"
       ],
       "WGS":[
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam",
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected/55c6e4a3-057a-4a55-a2af-b7f113422d3a/D4491.Solexa-178364.2.bam.bai",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected/55c6e4a3-057a-4a55-a2af-b7f113422d3a/D4491.Solexa-178364.2.bam",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/84a23558-26b3-42f4-a9f3-d83d118f2327/G31860.HCC1954.6.bam.bai",
