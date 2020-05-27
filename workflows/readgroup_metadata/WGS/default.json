@@ -1,0 +1,39 @@
+[
+        {
+            "CN": "BI",
+            "DT": "2013-09-05T00:00:00-0400",
+            "ID": "H7AH6.1",
+            "SM": "HCC1954",
+            "LB": "Solexa-178364",
+            "PL": "illumina",
+            "PU": "H7AH6ADXX130905.1.ATTCAGAA-CAGGACGT",
+            "PM": null
+        }, {
+            "CN": "BI",
+            "DT": "2013-09-05T00:00:00-0400",
+            "ID": "H7AH6.2",
+            "SM": "HCC1954",
+            "LB": "Solexa-178364",
+            "PL": "illumina",
+            "PU": "H7AH6ADXX130905.2.ATTCAGAA-CAGGACGT",
+            "PM": null
+        }, {
+            "CN": "BI",
+            "DT": "2013-09-05T00:00:00-0400",
+            "ID": "H7AH7.1",
+            "SM": "HCC1954",
+            "LB": "Solexa-178364",
+            "PL": "illumina",
+            "PU": "H7AH7ADXX130905.1.ATTCAGAA-CAGGACGT",
+            "PM": null
+        }, {
+            "CN": "BI",
+            "DT": "2013-09-05T00:00:00-0400",
+            "ID": "H7AH7.2",
+            "SM": "HCC1954",
+            "LB": "Solexa-178364",
+            "PL": "illumina",
+            "PU": "H7AH7ADXX130905.2.ATTCAGAA-CAGGACGT",
+            "PM": null
+        }
+]

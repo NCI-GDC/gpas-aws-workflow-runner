@@ -1,6 +1,6 @@
 s3url   id  filename    md5 size    state   experimental_strategy
-s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam None    COLO-829.bam    7d992fa77fcd89a5f6f10893ea99d7fa    16346379954 live  WGS
-s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam  None    COLO-829-BL.bam 2f9edad65c7bdcd56cf3ea90bc9a196f    11651533437 live  WGS
+s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam default    COLO-829.bam    7d992fa77fcd89a5f6f10893ea99d7fa    16346379954 live  WGS
+s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam  default    COLO-829-BL.bam 2f9edad65c7bdcd56cf3ea90bc9a196f    11651533437 live  WGS
 s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected/55c6e4a3-057a-4a55-a2af-b7f113422d3a/D4491.Solexa-178364.2.bam    ee04ea82-3604-4cdd-b2d8-9c8a3de9ba38  D4491.Solexa-178364.2.bam   21e90238c1fc651618b57a290d60e5c0    322760019093    live    WGS
 s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/84a23558-26b3-42f4-a9f3-d83d118f2327/G31860.HCC1954.6.bam    65381caa-94d6-4a2f-8d1c-a80c6493c401 G31860.HCC1954.6.bam    6b4843033caf77b3995a19fcac440d0d    406467012699    live    WGS
 s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/c72531e9-0e79-91c5-e040-ad451e411a96/G15509.K-562.2.bam    b5cc3b41-ce83-478a-a8da-c59cf589077e   G15509.K-562.2.bam  83332243960c5320f0d66b206f3284c8    226333347850    live    WGS
