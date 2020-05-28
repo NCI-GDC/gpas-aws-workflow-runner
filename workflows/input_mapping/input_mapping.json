@@ -115,6 +115,12 @@
          "s3://uchig-genomics-pipeline-us-east-1/outputs/COLO-829-BL.gdc_realn.bam",
          "s3://uchig-genomics-pipeline-us-east-1/outputs/COLO-829.gdc_realn.bai",
          "s3://uchig-genomics-pipeline-us-east-1/outputs/COLO-829.gdc_realn.bam"
+      ],
+      "WXS-Somatic":[
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.MJ.2.gdc_realn.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.MJ.2.gdc_realn.bam",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.SNU-1105.1.gdc_realn.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.SNU-1105.1.gdc_realn.bam"
       ]
    }
 }

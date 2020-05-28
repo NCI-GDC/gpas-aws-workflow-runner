@@ -66,7 +66,7 @@ case "$workflow" in
       ;;
   DNA-Seq-WXS-Somatic)
       input_mapping_refname="WXS somatic variant calling"
-      input_mapping_inputname=""
+      input_mapping_inputname="WXS-Somatic"
       cwl_file=gdc-somatic-variant-calling-workflow/workflows/gdc-somatic-variant-calling-workflow.cwl
       input_json=WXS-variant-calling/wxs.variant-calling.input.json
       readgroup_dir=
@@ -115,6 +115,12 @@ sudo gpasswd -a $USER docker
     jq --argjson sanger_threads $sanger_threads --argjson other_threads $other_threads \
                            '.sanger_threads = $sanger_threads | 
                             .other_threads = $other_threads' tasks/$input_json > $tmpfile
+
+    # update path and move to original location
+    sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' $tmpfile
+  elif [[ "$workflow" == "DNA-Seq-WXS-Somatic" ]]; then
+    jq --argjson numcpu $cpucount \
+                           '.threads = $numcpu'  tasks/$input_json > $tmpfile 
 
     # update path and move to original location
     sed -i 's|{PATH_TO}|/mnt/SCRATCH/files|' $tmpfile
