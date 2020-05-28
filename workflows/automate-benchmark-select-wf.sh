@@ -70,7 +70,7 @@ case "$workflow" in
       cwl_file=gdc-somatic-variant-calling-workflow/workflows/gdc-somatic-variant-calling-workflow.cwl
       input_json=WXS-variant-calling/wxs.variant-calling.input.json
       readgroup_dir=
-      git clone https://github.com/NCI-GDC/gdc-somatic-variant-calling-workflow.git --recursive
+      git clone -b feat/submodules-https https://github.com/NCI-GDC/gdc-somatic-variant-calling-workflow.git --recursive
       ;;
   *)
       echo "Incorrect workflow provided."
