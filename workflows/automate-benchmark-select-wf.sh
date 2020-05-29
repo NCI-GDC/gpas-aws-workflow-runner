@@ -96,12 +96,12 @@ esac
   elif [[ "$workflow" == "RNA-Seq" ]]; then
     memory=`free -g | grep Mem | awk '{print $2}'`
     #keep some memory aside for the OS
-    memory=$((${memory} -4))G
+    memory=$((${memory} -4))
     readgroup_uuid=$(grep $filename input_mapping/url_uuid_mapping.tsv | awk '{print $2}')
     readgroup_json="$(cat readgroup_metadata/$readgroup_dir/${readgroup_uuid}.json)"
 
     # update json
-    jq --argjson json "$readgroup_json" --argjson numcpu $cpucount --arg "${memory}" --arg uuid "$readgroup_uuid" \
+    jq --argjson json "$readgroup_json" --argjson numcpu $cpucount --argjson mem "${memory}" --arg uuid "$readgroup_uuid" \
                       '.readgroup_bam_file_list[0].readgroup_meta_list = $json |
                        .picard_java_mem = $mem |
                        .job_uuid = $uuid |
