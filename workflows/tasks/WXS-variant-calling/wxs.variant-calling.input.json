@@ -2,11 +2,11 @@
     "experimental_strategy": "WXS",
     "tumor_bam": {
         "class": "File",
-        "path": "{PATH_TO}/C836.MKN74.2.gdc_realn.bam",
+        "path": "{PATH_TO}/C836.SNU-1105.1.gdc_realn.bam",
         "secondaryFiles": [
             {
                 "class": "File",
-                "path": "{PATH_TO}/C836.MKN74.2.gdc_realn.bai"
+                "path": "{PATH_TO}/C836.SNU-1105.1.gdc_realn.bai"
             }
         ]
     },

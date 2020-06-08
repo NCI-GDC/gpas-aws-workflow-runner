@@ -51,6 +51,10 @@
          "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam"
       ],
       "WGS":[
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829-BL.bam",
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/bioinformatics_scratch/shenglai/binf389/COLO-829.bam",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected/55c6e4a3-057a-4a55-a2af-b7f113422d3a/D4491.Solexa-178364.2.bam.bai",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected/55c6e4a3-057a-4a55-a2af-b7f113422d3a/D4491.Solexa-178364.2.bam",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/84a23558-26b3-42f4-a9f3-d83d118f2327/G31860.HCC1954.6.bam.bai",
@@ -105,6 +109,18 @@
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/a929f123-9bdc-4e32-a4c5-7aaef8c98c45/G25210.NCI-H510.1.bam",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/e42bdd7a-e038-48d2-88bc-835bbdb3d877/G27495.SNU-1079.2.bam.bai",
          "s3://uchig-genomics-pipeline-us-east-1/ccle_cghub_protected_3/e42bdd7a-e038-48d2-88bc-835bbdb3d877/G27495.SNU-1079.2.bam"
+      ],
+      "WGS-Sanger":[
+         "s3://uchig-genomics-pipeline-us-east-1/outputs-gdc/COLO-829-BL.gdc_realn.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs-gdc/COLO-829-BL.gdc_realn.bam",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs-gdc/COLO-829.gdc_realn.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs-gdc/COLO-829.gdc_realn.bam"
+      ],
+      "WXS-Somatic":[
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.MJ.2.gdc_realn.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.MJ.2.gdc_realn.bam",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.SNU-1105.1.gdc_realn.bai",
+         "s3://uchig-genomics-pipeline-us-east-1/outputs/C836.SNU-1105.1.gdc_realn.bam"
       ]
    }
 }
