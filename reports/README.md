@@ -60,6 +60,10 @@ zgrep "kbmemused" *NA*/*/*/sar.txt.gz
 zgrep "kbcommit" *NA*/*/*/sar.txt.gz
 ```
 
+* iowait 
+```
+zgrep "all\W*%iowait" *NA*/*/*/sar.txt.gz
+```
 
 ## Process the metric
 The following python script will process a metric file extracted by the `zgrep`
