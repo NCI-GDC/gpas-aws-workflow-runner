@@ -1,0 +1,33 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "s3-genomics-pipeline-ec2-role",
+        "RoleId": "AROAWO5RGKQYQOF6NOVPD",
+        "Arn": "arn:aws:iam::444363854897:role/s3-genomics-pipeline-ec2-role",
+        "CreateDate": "2020-05-08T17:38:10+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "Allows EC2 instances to call S3 on your behalf.",
+        "MaxSessionDuration": 3600,
+        "Tags": [
+            {
+                "Key": "Name",
+                "Value": "s3-genomics-pipeline-access-role"
+            }
+        ],
+        "RoleLastUsed": {
+            "LastUsedDate": "2020-06-08T14:34:52+00:00",
+            "Region": "us-east-1"
+        }
+    }
+}

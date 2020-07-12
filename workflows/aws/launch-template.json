@@ -1,0 +1,159 @@
+{
+    "LaunchTemplateVersions": [
+        {
+            "LaunchTemplateId": "lt-05c497a6f93a841f8",
+            "LaunchTemplateName": "dna-seq-lt",
+            "VersionNumber": 2,
+            "VersionDescription": "DNA-Seq-WGS-COLO-829",
+            "CreateTime": "2020-05-29T16:06:45+00:00",
+            "CreatedBy": "arn:aws:sts::444363854897:assumed-role/cross-account-admin/mrschre-Isengard",
+            "DefaultVersion": true,
+            "LaunchTemplateData": {
+                "EbsOptimized": true,
+                "IamInstanceProfile": {
+                    "Arn": "arn:aws:iam::444363854897:instance-profile/s3-genomics-pipeline-ec2-role"
+                },
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "Encrypted": true,
+                            "DeleteOnTermination": true,
+                            "KmsKeyId": "arn:aws:kms:us-east-1:444363854897:key/c49713b1-5527-46f6-b527-f50fcaafcc76",
+                            "SnapshotId": "snap-040e7a59d0c4fc3f5",
+                            "VolumeSize": 128,
+                            "VolumeType": "gp2"
+                        }
+                    },
+                    {
+                        "DeviceName": "/dev/sdb",
+                        "Ebs": {
+                            "Encrypted": true,
+                            "DeleteOnTermination": true,
+                            "KmsKeyId": "arn:aws:kms:us-east-1:444363854897:key/c49713b1-5527-46f6-b527-f50fcaafcc76",
+                            "VolumeSize": 256,
+                            "VolumeType": "gp2"
+                        }
+                    }
+                ],
+                "NetworkInterfaces": [
+                    {
+                        "AssociatePublicIpAddress": false,
+                        "DeleteOnTermination": true,
+                        "Description": "Primary network interface",
+                        "DeviceIndex": 0,
+                        "Groups": [
+                            "sg-08d27e7947652e22d"
+                        ],
+                        "SubnetId": "subnet-037d511a2634a4509"
+                    }
+                ],
+                "ImageId": "ami-056dd1588814c669c",
+                "KeyName": "mrschre-uchig.pem",
+                "Monitoring": {
+                    "Enabled": false
+                },
+                "Placement": {
+                    "Tenancy": "default"
+                },
+                "DisableApiTermination": false,
+                "InstanceInitiatedShutdownBehavior": "stop",
+                "UserData": "IyEgL2Jpbi9iYXNoCgojIGluc3RhbGwgbmVlZGVkIHBhY2thZ2VzCnl1bSB1cGRhdGUgLXkKeXVtIGluc3RhbGwgZ2l0IC15Cnl1bSBpbnN0YWxsIGpxIC15CgojIE1vdW50IHRoZSB3b3JraW5nIEVCUwpta2RpciAtcCAvbW50CiNzdWRvIGZpbGUgLXMgL2Rldi9udm1lMW4xCm1rZnMgLXQgeGZzIC9kZXYvbnZtZTFuMQptb3VudCAvZGV2L252bWUxbjEgL21udApjcCAvZXRjL2ZzdGFiIC9ldGMvZnN0YWIub3JpZwp1dWlkPWBibGtpZCAtcyBVVUlEIC1vIHZhbHVlIC9kZXYvbnZtZTFuMWAKZWNobyAiVVVJRD0kdXVpZCAgL21udCAgeGZzICBkZWZhdWx0cyxub2ZhaWwgIDAgIDIiIHwgdGVlIC1hIC9ldGMvZnN0YWIKCm1rZGlyIC1wIC9tbnQvU0NSQVRDSAoKIyBjb25maWd1cmUgZG9ja2VyIHRvIHVzZSB0aGUgd29ya2luZyBkaXNrIGFuZCBhbGxvdyBub24tcm9vdCB1c2FnZQpta2RpciAtcCAvbW50L1NDUkFUQ0gvZG9ja2VyLWRhdGEKYmFzaCAtYyAnZWNobyBET0NLRVJfT1BUUz1cIi1nIC9tbnQvU0NSQVRDSC9kb2NrZXItZGF0YS9cIiA+PiAvZXRjL2RlZmF1bHQvZG9ja2VyJwpzZXJ2aWNlIGRvY2tlciByZXN0YXJ0CmdwYXNzd2QgLWEgZWMyLXVzZXIgZG9ja2VyCgojIE1ha2UgdGhlIHdvcmtpbmcgbW91bnQgdXNhYmxlIGJ5IGV2ZXJ5b25lCmNobW9kIDc3NyAtUiAvbW50CmF3cyBzMyBjcCBzMzovL3VjaGlnLWdlbm9taWNzLXBpcGVsaW5lLXVzLWVhc3QtMS9iZW5jaG1hcmtzL2F1dG9tYXRlLWJlbmNobWFyay1zZWxlY3Qtd2Yuc2ggL2hvbWUvZWMyLXVzZXIvYXV0b21hdGUtYmVuY2htYXJrLXNlbGVjdC13Zi5zaApjaG1vZCBhK3ggL2hvbWUvZWMyLXVzZXIvYXV0b21hdGUtYmVuY2htYXJrLXNlbGVjdC13Zi5zaAoKc3VkbyAtaSAtdSBlYzItdXNlciAuL2F1dG9tYXRlLWJlbmNobWFyay1zZWxlY3Qtd2Yuc2ggRE5BLVNlcS1XR1MgQ09MTy04MjktQkwuYmFtICY+IGJlbmNobWFyay5sb2cgJg==",
+                "TagSpecifications": [
+                    {
+                        "ResourceType": "instance",
+                        "Tags": [
+                            {
+                                "Key": "Name",
+                                "Value": "DNA-Seq-WGS-COLO-829"
+                            }
+                        ]
+                    }
+                ],
+                "CapacityReservationSpecification": {
+                    "CapacityReservationPreference": "open"
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "MetadataOptions": {
+                    "HttpTokens": "optional",
+                    "HttpPutResponseHopLimit": 1,
+                    "HttpEndpoint": "enabled"
+                }
+            }
+        },
+        {
+            "LaunchTemplateId": "lt-05c497a6f93a841f8",
+            "LaunchTemplateName": "dna-seq-lt",
+            "VersionNumber": 1,
+            "VersionDescription": "Setup for the DNA Seq CWLTool benchmark",
+            "CreateTime": "2020-05-26T13:32:39+00:00",
+            "CreatedBy": "arn:aws:sts::444363854897:assumed-role/cross-account-admin/mrschre-Isengard",
+            "DefaultVersion": false,
+            "LaunchTemplateData": {
+                "EbsOptimized": true,
+                "IamInstanceProfile": {
+                    "Arn": "arn:aws:iam::444363854897:instance-profile/s3-genomics-pipeline-ec2-role"
+                },
+                "BlockDeviceMappings": [
+                    {
+                        "DeviceName": "/dev/xvda",
+                        "Ebs": {
+                            "Encrypted": true,
+                            "DeleteOnTermination": true,
+                            "KmsKeyId": "arn:aws:kms:us-east-1:444363854897:key/c49713b1-5527-46f6-b527-f50fcaafcc76",
+                            "SnapshotId": "snap-040e7a59d0c4fc3f5",
+                            "VolumeSize": 128,
+                            "VolumeType": "gp2"
+                        }
+                    },
+                    {
+                        "DeviceName": "/dev/sdb",
+                        "Ebs": {
+                            "Encrypted": true,
+                            "DeleteOnTermination": true,
+                            "KmsKeyId": "arn:aws:kms:us-east-1:444363854897:key/c49713b1-5527-46f6-b527-f50fcaafcc76",
+                            "VolumeSize": 256,
+                            "VolumeType": "gp2"
+                        }
+                    }
+                ],
+                "NetworkInterfaces": [
+                    {
+                        "AssociatePublicIpAddress": false,
+                        "DeleteOnTermination": true,
+                        "Description": "Primary network interface",
+                        "DeviceIndex": 0,
+                        "Groups": [
+                            "sg-08d27e7947652e22d"
+                        ],
+                        "SubnetId": "subnet-037d511a2634a4509"
+                    }
+                ],
+                "ImageId": "ami-056dd1588814c669c",
+                "KeyName": "mrschre-uchig.pem",
+                "Monitoring": {
+                    "Enabled": false
+                },
+                "Placement": {
+                    "Tenancy": "default"
+                },
+                "DisableApiTermination": false,
+                "InstanceInitiatedShutdownBehavior": "stop",
+                "UserData": "IyEgL2Jpbi9iYXNoCgojIGluc3RhbGwgbmVlZGVkIHBhY2thZ2VzCnl1bSB1cGRhdGUgLXkKeXVtIGluc3RhbGwgZ2l0IC15Cnl1bSBpbnN0YWxsIGpxIC15CgojIE1vdW50IHRoZSB3b3JraW5nIEVCUwpta2RpciAtcCAvbW50CiNzdWRvIGZpbGUgLXMgL2Rldi9udm1lMW4xCm1rZnMgLXQgeGZzIC9kZXYvbnZtZTFuMQptb3VudCAvZGV2L252bWUxbjEgL21udApjcCAvZXRjL2ZzdGFiIC9ldGMvZnN0YWIub3JpZwp1dWlkPWBibGtpZCAtcyBVVUlEIC1vIHZhbHVlIC9kZXYvbnZtZTFuMWAKZWNobyAiVVVJRD0kdXVpZCAgL21udCAgeGZzICBkZWZhdWx0cyxub2ZhaWwgIDAgIDIiIHwgdGVlIC1hIC9ldGMvZnN0YWIKCm1rZGlyIC1wIC9tbnQvU0NSQVRDSAoKIyBjb25maWd1cmUgZG9ja2VyIHRvIHVzZSB0aGUgd29ya2luZyBkaXNrIGFuZCBhbGxvdyBub24tcm9vdCB1c2FnZQpta2RpciAtcCAvbW50L1NDUkFUQ0gvZG9ja2VyLWRhdGEKYmFzaCAtYyAnZWNobyBET0NLRVJfT1BUUz1cIi1nIC9tbnQvU0NSQVRDSC9kb2NrZXItZGF0YS9cIiA+PiAvZXRjL2RlZmF1bHQvZG9ja2VyJwpzZXJ2aWNlIGRvY2tlciByZXN0YXJ0CmdwYXNzd2QgLWEgZWMyLXVzZXIgZG9ja2VyCgojIE1ha2UgdGhlIHdvcmtpbmcgbW91bnQgdXNhYmxlIGJ5IGV2ZXJ5b25lCmNobW9kIDc3NyAtUiAvbW50CmF3cyBzMyBjcCBzMzovL3VjaGlnLWdlbm9taWNzLXBpcGVsaW5lLXVzLWVhc3QtMS9iZW5jaG1hcmtzL2RuYS1zZXEuc2ggL2hvbWUvZWMyLXVzZXIvZG5hLXNlcS5zaApjaG1vZCBhK3ggL2hvbWUvZWMyLXVzZXIvZG5hLXNlcS5zaAoKc3VkbyAtaSAtdSBlYzItdXNlciAuL2RuYS1zZXEuc2ggJg==",
+                "CapacityReservationSpecification": {
+                    "CapacityReservationPreference": "open"
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "MetadataOptions": {
+                    "HttpTokens": "optional",
+                    "HttpPutResponseHopLimit": 1,
+                    "HttpEndpoint": "enabled"
+                }
+            }
+        }
+    ]
+}
